@@ -52,7 +52,7 @@ def connect():
 
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server_socket.bind(("0.0.0.0", 8081))
+server_socket.bind(("0.0.0.0", 8082))
 #get clients any number, wait for message, get ip and message then forward this to the ip included in that message if cant say no client exists.
 run = True
 connect()
